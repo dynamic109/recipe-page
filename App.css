@@ -1,0 +1,59 @@
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+main > img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}
+
+h2 {
+  color: rgb(122, 36, 36);
+}
+
+.preparation {
+  background: rgb(255, 239, 244);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.preparation > h3 {
+  color: rgb(119, 45, 78);
+}
+
+li {
+  padding-left: 18px;
+  padding-bottom: 12px;
+}
+
+li::marker {
+  font-size: 13px;
+  color: rgb(119, 45, 78);
+}
+
+.instruction-li::marker {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr.border-bottom {
+  height: 50px;
+  padding-left: 10px;
+  border-bottom: 1px solid rgb(189, 185, 185);
+}
+
+.value {
+  color: rgb(119, 45, 78);
+  font-weight: bold;
+}
